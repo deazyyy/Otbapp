@@ -1,0 +1,573 @@
+@media(min-width:2560px){
+	/*comman*/
+	.container{
+		max-width: 1280px;
+	}
+	/*comman end*/
+}
+@media(min-width:2000px) and (max-width:2560px){
+	/*comman*/
+	.container{
+		max-width: 1280px;
+	}
+	/*comman end*/
+}
+@media(min-width:1800px) and (max-width:1999px){
+	/*comman*/
+	.container{
+		max-width: 1280px;
+	}
+	/*comman end*/
+}
+@media(min-width:1551px) and (max-width:1799px){
+	/*comman*/
+	.container{
+		max-width: 1280px;
+	}
+	/*comman end*/
+
+
+	/***** exchange ***/
+	.exchange-blck-bx-outer{
+		flex-direction: column;
+		margin: 0 00px;
+	}
+	.exchange-blck-bx-outer .Exchange_black-bx{
+		margin: 0;
+	}
+	
+}
+@media(min-width:1351px) and (max-width:1550px){
+	/*comman*/
+	.container{
+		max-width: 1280px;
+	}
+	.btn-main{
+		font-size: 16px;
+		padding: 8px 16px;
+	}
+	/*banner*/
+	.banner-info h2{
+		font-size: 50px;
+		line-height: 60px;
+	}
+	.banner-info div{
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+
+
+	/***** exchange ***/
+	.exchange-blck-bx-outer{
+		flex-direction: column;
+		margin: 0 00px;
+	}
+	.exchange-blck-bx-outer .Exchange_black-bx{
+		margin: 0;
+	}
+	.stake-table-outer .table-body-row{
+		font-size: 14px;
+	}
+}
+@media(min-width:1200px) and (max-width:1350px){
+	/**** index****/
+	.btn-main{
+		font-size: 16px;
+		padding: 8px 16px;
+	}
+	/*banner*/
+	.banner-info{
+		top: 50vh;
+		transform: translateY(-45vh);
+	}
+	.banner-info h2{
+		font-size: 50px;
+		line-height: 60px;
+	}
+	.banner-info div{
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+
+
+
+	/****	stakevote****/
+	.form-group-outer .form-group div{
+		display: flex;
+		align-items: center;
+	}
+	.second_col .form-group img{
+		height: 22px;
+	}
+	.form-group-outer input{
+		width: auto;
+	}
+
+
+	/***** exchange ***/
+	.exchange-blck-bx-outer{
+		flex-direction: column;
+		margin: 0 00px;
+	}
+	.exchange-blck-bx-outer .Exchange_black-bx{
+		margin: 0;
+	}
+	.stake-table-outer .table-body-row{
+		font-size: 14px;
+	}
+
+	
+}
+@media(min-width:1025px) and (max-width:1199px){
+	.container{
+		max-width: 1025px;
+	}
+	/**** index****/
+	.btn-main{
+		font-size: 16px;
+		padding: 8px 16px;
+	}
+	/*banner*/
+	.banner-info{
+		top: 50vh;
+		transform: translateY(-45vh);
+		margin: 0 100px;
+	}
+	.banner-info h2{
+		font-size: 40px;
+		line-height: 60px;
+	}
+	.banner-info div{
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.readystart-bx{
+		font-size: 16px;
+	}
+	.roadmap-bx::after{
+		right: -90px;
+	}
+	
+
+
+
+
+
+
+	/****	stakevote****/
+	.form-group-outer .form-group div{
+		display: flex;
+		align-items: center;
+		width: 100%;
+		margin-top: 10px;
+		margin-bottom: 8px;
+	}
+	.second_col .form-group img{
+		height: 22px;
+	}
+	.form-group-outer input{
+		width: auto;
+	}
+	.second_col .form-group-outer input{
+		width: 100%;
+	}
+	.second_col .form-group-outer .form-group{
+		flex-direction: column;
+	}
+	.stake_first_row .form-group-outer .btn-main{
+		width: 100%;
+	}
+	.second_col .form-group-outer .form-group{
+		align-items: flex-start;
+	}
+	.second_col .form-group-outer .form-group label{
+		margin-bottom: 0;
+	}
+	.stake_second_row .form-group-outer .btn-main{
+		width: inherit;
+	}
+}
+@media(min-width:992px) and (max-width:1024px){
+	/**** index****/
+	.btn-main{
+		font-size: 16px;
+		padding: 8px 16px;
+	}
+	/*banner*/
+	.banner-info{
+		top: 50vh;
+		transform: translateY(-45vh);
+		margin: 0 100px;
+	}
+	.banner-info h2{
+		font-size: 40px;
+		line-height: 60px;
+	}
+	.banner-info div{
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.readystart-bx{
+		font-size: 16px;
+	}
+	.roadmap-bx::after{
+		right: -90px;
+	} 
+
+
+
+
+
+	/****	stakevote****/
+	.form-group-outer .form-group div{
+		display: flex;
+		align-items: center;
+		width: 100%;
+		margin-top: 10px;
+		margin-bottom: 8px;
+	}
+	.second_col .form-group img{
+		height: 22px;
+	}
+	.form-group-outer input{
+		width: auto;
+	}
+	.second_col .form-group-outer input{
+		width: 100%;
+	}
+	.second_col .form-group-outer .form-group{
+		flex-direction: column;
+	}
+	.stake_first_row .form-group-outer .btn-main{
+		width: 100%;
+	}
+	.second_col .form-group-outer .form-group{
+		align-items: flex-start;
+	}
+	.second_col .form-group-outer .form-group label{
+		margin-bottom: 0;
+	}
+	.stake_second_row .form-group-outer .btn-main{
+		width: inherit;
+	}
+
+
+	
+}
+@media(min-width:768px) and (max-width:991px){
+	.mobile-hide{
+		display: none;
+	}
+	
+	.mobile-show{
+		display: block;
+	}
+	/**** index****/
+	.btn-main{
+		font-size: 16px;
+		padding: 8px 16px;
+	}
+	/*banner*/
+	.banner-info{
+		top: 50vh;
+		transform: translateY(-45vh);
+		margin: 0 100px;
+	}
+	.banner-info h2{
+		font-size: 40px;
+		line-height: 60px;
+	}
+	.banner-info div{
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.readystart-bx{
+		font-size: 16px;
+	}
+	.roadmap-bx::after{
+		right: -90px;
+	} 
+
+
+
+
+
+
+
+
+
+
+
+	/****	stakevote****/
+	.form-group-outer .form-group div{
+		display: flex;
+		align-items: center;
+		width: 100%;
+		margin-top: 10px;
+		margin-bottom: 8px;
+	}
+	.second_col .form-group img{
+		height: 22px;
+	}
+	.form-group-outer input{
+		width: auto;
+	}
+	.second_col .form-group-outer input{
+		width: 100%;
+	}
+	.second_col .form-group-outer .form-group{
+		flex-direction: column;
+	}
+	.stake_first_row .form-group-outer .btn-main{
+		width: 100%;
+	}
+	.second_col .form-group-outer .form-group{
+		align-items: flex-start;
+	}
+	.second_col .form-group-outer .form-group label{
+		margin-bottom: 0;
+	}
+	.stake_second_row .form-group-outer .btn-main{
+		width: inherit;
+	}
+	.staking-power-row{
+		flex-direction: column;
+	}
+	.staking-powe-col2 {
+		padding: 0 25vw;
+		padding-top: 20px;
+	}
+	
+}
+@media(min-width:448px) and (max-width:767px){
+	.mobile-hide{
+		display: none;
+	}
+	
+	.mobile-show{
+		display: block;
+	}
+	/**** index****/
+	.btn-main{
+		font-size: 16px;
+		padding: 8px 16px;
+	}
+	/*banner*/
+	.banner-section{
+		background-size: cover;
+		background-position: top;
+	}
+	.banner-info{
+		top: 50vh;
+		transform: translateY(-25vh);
+		margin: 0 60px;
+		max-width: none;
+	}
+	.banner-info h2{
+		font-size: 34px;
+		line-height: unset;
+	}
+	.banner-info div{
+		font-size: 16px;
+		margin-bottom: 14px;
+		line-height: 24px;
+	}
+	.readystart-bx{
+		font-size: 16px;
+	}
+	.roadmap-bx::after{
+		right: -90px;
+	} 
+	.left_nav{
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+	.roadmap-bx::after{
+		display: none;
+	}
+	.adv-bx{
+		margin: 20px auto;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+		/****	stakevote****/
+		.form-group-outer .form-group div{
+			display: flex;
+			align-items: center;
+			width: 100%;
+			margin-top: 10px;
+			margin-bottom: 8px;
+		}
+		.second_col .form-group img{
+			height: 22px;
+		}
+		.form-group-outer input{
+			width: auto;
+		}
+		.second_col .form-group-outer input{
+			width: 100%;
+		}
+		.second_col .form-group-outer .form-group{
+			flex-direction: column;
+		}
+		.stake_first_row .form-group-outer .btn-main{
+			width: 100%;
+		}
+		.second_col .form-group-outer .form-group{
+			align-items: flex-start;
+		}
+		.second_col .form-group-outer .form-group label{
+			margin-bottom: 0;
+		}
+		.stake_second_row .form-group-outer .btn-main{
+			width: inherit;
+		}
+		.staking-power-row{
+			flex-direction: column;
+		}
+		.staking-powe-col2 {
+			padding: 0 15vw;
+			padding-top: 20px;
+		}
+
+
+}
+@media(max-width:447px){
+	.navbar {
+		justify-content: space-between;
+		padding: 15px 15px 0 15px;
+		margin-bottom: 0;
+	}
+	.mobile-hide{
+		display: none;
+	}
+	
+	.mobile-show{
+		display: block;
+	}
+	/**** index****/
+	.btn-main{
+		font-size: 16px;
+		padding: 8px 16px;
+	}
+	/*banner*/
+	.banner-section{
+		background-size: cover;
+		background-position: top;
+	}
+	.banner-info{
+		top: 50vh;
+		transform: translateY(-25vh);
+		margin: 0 60px;
+		max-width: none;
+	}
+	.banner-info h2{
+		font-size: 34px;
+		line-height: unset;
+	}
+	.banner-info div{
+		font-size: 16px;
+		margin-bottom: 14px;
+		line-height: 24px;
+	}
+	.readystart-bx{
+		font-size: 16px;
+	}
+	.roadmap-bx::after{
+		right: -90px;
+	} 
+	.left_nav{
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+	.roadmap-bx::after{
+		display: none;
+	}
+	.adv-bx{
+		margin: 20px auto;
+	}
+	.promote-sec h4, .advantage-sec h4, .roadmap-sec h4, .explore-sec h4{
+		font-size: 32px;
+		margin-bottom: 12px;
+	}
+	.section-info{
+		font-size: 16px;
+	}
+	.adv-bx-info{
+		font-size: 16px;
+		line-height: unset;
+	}
+	.adv-bx h4{
+		font-size: 28px;
+		margin-bottom: 10px;
+	}
+	.adv-bx img{
+		width: 50px;
+	}
+	.roadmap-sec .roadmap-bx{
+		margin-top: 30px !important;
+	}
+
+	/****	stakevote****/
+	.form-group-outer .form-group div{
+		display: flex;
+		align-items: center;
+		width: 100%;
+		margin-top: 10px;
+		margin-bottom: 8px;
+	}
+	.second_col .form-group img{
+		height: 22px;
+	}
+	.form-group-outer input{
+		width: auto;
+	}
+	.second_col .form-group-outer input{
+		width: 100%;
+	}
+	.second_col .form-group-outer .form-group{
+		flex-direction: column;
+	}
+	.stake_first_row .form-group-outer .btn-main{
+		width: 100%;
+	}
+	.second_col .form-group-outer .form-group{
+		align-items: flex-start;
+	}
+	.second_col .form-group-outer .form-group label{
+		margin-bottom: 0;
+	}
+	.stake_second_row .form-group-outer .btn-main{
+		width: inherit;
+	}
+	.staking-power-row{
+		flex-direction: column;
+	}
+	.staking-powe-col2 {
+		padding: 0 15vw;
+		padding-top: 20px;
+	}
+	.stake_heading_main{
+		margin-top: 30px;
+	}
+	.staking-powe-col1{
+		font-size: 16px;
+	}
+
+
+}
+

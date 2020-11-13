@@ -1,0 +1,32 @@
+.navbar{
+    justify-content: space-between;
+    padding: 30px 50px 0 50px;
+}
+.left_nav{
+    display: flex;
+    align-items: center;
+}
+.navbar-brand{
+    margin-right: 60px;
+}
+
+
+
+.nav-link{
+    color: #ffffff;
+    font-weight: 600;
+}
+.nav-link:hover{
+    color: #fff;
+    opacity: 0.8;
+}
+
+.nav-social{
+    display: flex;
+    align-items: center;
+}
+.nav-social img{
+    width: 22px;
+    height: auto;
+    margin-left: 30px;
+}

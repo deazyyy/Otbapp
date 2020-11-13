@@ -1,0 +1,29 @@
+a:hover,
+a:focus,
+a:active{
+  text-decoration: none;
+}
+html{
+  margin: 0;
+  padding: 0;
+}
+img{
+  display: block;
+}
+body{
+  font-size: 14px;
+  font-weight: normal;
+  font-family: 'Montserrat';
+  color: #000;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: top center;
+}
+p{
+  font-size: 18px;
+  font-weight: normal;
+  color: #9f9f9f;
+  line-height: 24px;
+}

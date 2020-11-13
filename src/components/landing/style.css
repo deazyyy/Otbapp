@@ -1,0 +1,228 @@
+.banner-section{
+    background-image: url('../../images/Background.png');
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.banner-info{
+    margin: 0 160px ;
+    max-width: 40vw;
+    font-size: 22px;
+    line-height: 42px;
+    color: #727272;
+    font-weight: 400;
+    font-family: "Exo";
+    position: relative;
+    top: 45vh;
+    transform: translateY(-25vh);
+}
+.banner-info h2{
+    line-height: 86px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Exo";
+    font-size: 74px;
+}
+.banner-info .btn-main{
+    background-color: #49d191;
+}
+.banner-info div{
+    margin-bottom: 26px ;
+}
+
+
+
+
+
+/* promote sec*/
+.banner-section, .promote-sec, .advantage-sec, .roadmap-sec, .explore-sec{
+    margin-bottom: 100px;
+}
+.promote-sec h4, .advantage-sec h4, .roadmap-sec h4, .explore-sec h4{
+    color: #0f0f0f;
+    font-weight: 700;
+    font-family: "Exo";
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.section-info{
+    color: #727272;
+    font-weight: 400;
+    font-family: "Exo";
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+
+
+/*advantage*/
+.advantage-sec{
+    padding: 80px 0;
+    background-color: #cbfae4;
+}
+.adv-bx{
+    max-width: 90%;
+    margin: auto;
+    margin: 60px 0;
+}
+.adv-bx h4{
+    font-size: 36px;
+    letter-spacing: -1px;
+    color: #0f0f0f;
+    font-weight: 700;
+    font-family: "Exo";
+    text-align: center;
+    margin-bottom: 20px;
+}
+.adv-bx img{
+    display: block;
+    margin:auto;
+    width: 70px;
+    margin-bottom: 30px;
+    box-shadow: 12.287px 8.604px 12.5px rgba(0,0,0,0.1);
+}
+.adv-bx-info{
+    font-size: 18px;
+    line-height: 38px;
+    color: #727272;
+    font-weight: 400;
+    font-family: "Exo";
+    text-align: center;
+}
+
+
+
+
+
+
+.roadmap-bx{
+    border-bottom:2px solid  #ededed;
+    max-width: 200px;
+    margin: auto;
+    padding-bottom: 30px;
+    position: relative;
+}
+.roadmap-bx img{
+    display: block;
+    margin: auto;
+}
+.roadmap-bx h4{
+    color: #0f0f0f;
+    font-weight: 700;
+    font-family: "Exo";
+    text-align: center;
+    font-size: 28px;
+}
+.roadmap-bx-info{
+    font-size: 18px;
+    line-height: 30px;
+    color: #727272;
+    font-weight: 400;
+    font-family: "Exo";
+    text-align: center;
+}
+.roadmap-bx img{
+    width: 70px;
+    height: auto;
+    margin-bottom: 10px
+}
+.roadmap-sec .col-md-3:nth-child(even) .roadmap-bx
+{
+    margin-top: 60px;
+}
+.roadmap-bx::after{
+    position: absolute;
+    content: "";
+    background-image: url('../../images/shapes/circle-line.png');
+    height: 27px;
+    width: 108px;
+    right: -120px;
+    top: 100px;
+}
+
+.roadmap-sec .col-md-3:nth-child(even) .roadmap-bx::after
+{
+    top: 0px;
+    transform: scale(-1);
+}
+.roadmap-sec .col-md-3:last-child .roadmap-bx::after
+{
+    background-image: none;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+.readystart-sec{
+    margin-bottom: 0;
+}
+.readystart-bx{
+    font-size: 18px;
+    line-height: 38px;
+    color: #727272;
+    font-weight: 400;
+    font-family: "Exo";
+    text-align: center;
+    margin: 40px 10% 0 10%;
+}
+.readystart-bx .btn-main{
+    display: block;
+    box-shadow :12.287px 8.604px 12.5px rgba(0,0,0,0.1);
+    margin-top: 10px;
+}
+
+
+footer{
+    background-color: #0f0f0f;
+    padding: 30px 50px;
+}
+footer .navbar{
+    padding: 0px 50px 0 50px;
+}
+footer .left_nav{
+    width: 100%;
+}
+footer .navbar-nav{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.comp-logo img{
+    height: 20px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+.table-outer{
+    border: 2px solid #ededed;
+    border-radius: 15px;
+}
+.table-row, .table-head{
+    display: flex;
+    padding: 12px;
+    background-color: transparent;
+}
+.table-row div, .table-head div{
+    width: 25%;
+}
+.table-body .table-row:nth-child(odd) {
+    background-color: #FDFDFD;
+    border-top: 2px solid #ededed;
+    border-bottom: 2px solid #ededed;
+}
+.table-body .table-row:last-child {
+    border-top: 2px solid #ededed;
+    border-bottom: 2px solid transparent;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
