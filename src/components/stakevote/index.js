@@ -30,7 +30,7 @@ class StakeExchange extends React.Component {
             <div className="stakevote-pg">
                 <Navbar/>
                 <div className="container">
-                    <div className="stake_heading_main">
+                    <div className="stake_heading_main wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.60s">
                         <h4>Staking & Vote</h4>
                         <div>
                         Earn OTBC's by voting for our node(s). You can earn more rewards by staking your OTBC's on our platform. <br/>
@@ -40,7 +40,7 @@ class StakeExchange extends React.Component {
                     </div>
 
                     <div className="row stake_first_row">
-                        <div className="col-md-12 col-lg-8">
+                        <div className="col-md-12 col-lg-8 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                             <div className="black-bx">
                                 <h4>Staking Power</h4>
                                 <div className="staking-power-row">
@@ -75,13 +75,14 @@ class StakeExchange extends React.Component {
                                         { title: 'Three', value: 20, color: '#7f7f7f' },
                                     ]}
                                     />
+                                   
                                     </div>
                                 </div>
                             </div>
 
                         </div>
 
-                        <div className="col-md-12 col-lg-4 second_col">
+                        <div className="col-md-12 col-lg-4 second_col wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
                             <div className="black-bx">
                                 <h4>Stake OTBC's</h4>
                                 <div className="form-group-outer">
@@ -116,7 +117,7 @@ class StakeExchange extends React.Component {
 
 
 
-                    <div className="row stake_second_row">
+                    <div className="row stake_second_row wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.2s">
                         <div className="col-sm-12 col-md-12 col-lg-4">
                             <div className="black-bx">
                                 <h4>Staking Power <div>0.0000 <span>OTBC Daily</span></div></h4>

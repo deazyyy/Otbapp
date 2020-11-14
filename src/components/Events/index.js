@@ -27,9 +27,9 @@ class Events extends React.Component {
         </div>);
         
         return (
-            <div className="stakevote-pg">
+            <div className="stakevote-pg ">
                 <Navbar/>
-                <div className="Events_pg container">
+                <div className="Events_pg container wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.6s">
                     <div className="events_head">
                         <h4>Treasure Hunt</h4>
                         otbTrade launches the first treasure hunt event on IOST. Join thousands of others to hunt for clues and attain wealth beyond measures.

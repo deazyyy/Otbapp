@@ -5,6 +5,7 @@
 .left_nav{
     display: flex;
     align-items: center;
+    width: -webkit-fill-available;
 }
 .navbar-brand{
     margin-right: 60px;
@@ -29,4 +30,55 @@
     width: 22px;
     height: auto;
     margin-left: 30px;
+}
+.nav_mobile_show{
+    animation: all 1s linear;
+}
+
+.nav_mobile_show{
+    left: 0;
+}
+
+.nav_mobile{
+    background: #212121;
+    padding: 20px;
+    padding-top: 15px;
+    position: fixed;
+    left: -54vw;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 54vw;
+    z-index: 12;
+}
+
+.nav_mobiles{
+    left: 0;
+    animation: navin 0.6s
+}
+@keyframes navin {
+    from {left: -54vw;}
+    to {left: 0;}
+}
+@keyframes navout {
+    from {left: 0vw;}
+    to {left: -54vw;}
+}
+.nav_mobile .nav-social div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+}
+.nav_mobile .nav-social{
+   flex-direction: column;
+   align-items: flex-start;
+   margin-top: 10px;
+}
+.nav_mobile .nav-social div img{
+  margin-left: 0;
+  margin-right: 20px;
+}
+.hamburger{
+    font-size: 24px;
+    color: #fff;
 }

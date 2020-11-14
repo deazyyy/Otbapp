@@ -1,6 +1,28 @@
 *{
     font-family: 'Exo', sans-serif;
 }
+/* Scroll Bar Css Starts */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #ffffff;
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.15);
+  }
+  ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 20px;
+    border-radius: 0;
+    background: #292929;
+    border: 2px solid #ffffff;
+    width: 8px;
+  }
+  ::-webkit-scrollbar-thumb:active {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background: #616161;
+  }
+  /* Scroll Bar Css Ends */
+  
 
 nav{
     margin-bottom: 50px;
@@ -50,38 +72,4 @@ footer .navbar-nav{
 
 .mobile-show{
     display: none;
-}
-.nav_mobile_show{
-    display: none;
-}
-
-.nav_mobile{
-    background: #212121;
-    padding: 20px;
-    padding-top: 35px;
-    position: fixed;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    height: 100vh;
-    width: 54vw;
-    z-index: 12;
-}
-.nav_mobile .nav-social div{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 14px;
-}
-.nav_mobile .nav-social{
-   flex-direction: column;
-   align-items: flex-start;
-   margin-top: 10px;
-}
-.nav_mobile .nav-social div img{
-  margin-left: 0;
-  margin-right: 20px;
-}
-.hamburger{
-    font-size: 24px;
-    color: #fff;
 }

@@ -20,7 +20,7 @@ class Landing extends React.Component {
     render() {
         return (
             <div>
-                <section className="banner-section">
+                <section className="banner-section wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.60s">
                     <Navbar/>
                     <div className="banner-info">
                         <h2>
@@ -33,7 +33,7 @@ class Landing extends React.Component {
                     </div>
                 </section>
 
-                <section className="promote-sec">
+                <section className="promote-sec wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.20s">
                     <div className="container">
                         <h4>Promoting Blockchain</h4>
                         <div className="section-info">
@@ -42,7 +42,7 @@ class Landing extends React.Component {
                     </div>
                 </section>
 
-                <section className="explore-sec">
+                <section className="explore-sec wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.20s">
                     <div className="container">
                         <h4>Explore Top Markets</h4>
                         <div className="section-info">
@@ -82,10 +82,10 @@ class Landing extends React.Component {
 
                 <section className="advantage-sec">
                     <div className="container">
-                        <h4>Advantages of OTB</h4>
+                        <h4 className =" wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.20s">Advantages of OTB</h4>
                         <div className="row">
                             <div className="col-md-6">
-                                <div className="adv-bx">
+                                <div className="adv-bx wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.20s">
                                     <img src={adv1} alt="icon"></img>
                                     <h4>Secure</h4>
                                     <div className="adv-bx-info">
@@ -94,7 +94,7 @@ class Landing extends React.Component {
                                 </div>
                             </div>
                             <div className="col-md-6">
-                                <div className="adv-bx">
+                                <div className="adv-bx  wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.20s">
                                     <img src={adv2} alt="icon"></img>
                                     <h4>Scalable</h4>
                                     <div className="adv-bx-info">
@@ -103,7 +103,7 @@ class Landing extends React.Component {
                                 </div>
                             </div>
                             <div className="col-md-6">
-                                <div className="adv-bx">
+                                <div className="adv-bx wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.20s">
                                     <img src={adv3} alt="icon"></img>
                                     <h4>Innovative</h4>
                                     <div className="adv-bx-info">
@@ -112,7 +112,7 @@ class Landing extends React.Component {
                                 </div>
                             </div>
                             <div className="col-md-6">
-                                <div className="adv-bx">
+                                <div className="adv-bx wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.20s">
                                     <img src={adv4} alt="icon"></img>
                                     <h4>Decentralized</h4>
                                     <div className="adv-bx-info">
@@ -129,10 +129,10 @@ class Landing extends React.Component {
 
                 <section className="roadmap-sec">
                     <div className="container">
-                        <h4>Roadmap</h4>
+                        <h4 className =" wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.20s">Roadmap</h4>
                         <div className="row">
                             <div className="col-md-3">
-                                <div className="roadmap-bx">
+                                <div className="roadmap-bx wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1.10s">
                                     <img src={roadmap1} alt="icon"></img>
                                     <h4>Q1</h4>
                                     <div className="roadmap-bx-info">
@@ -144,7 +144,7 @@ class Landing extends React.Component {
                                 </div>
                             </div>
                             <div className="col-md-3">
-                                <div className="roadmap-bx">
+                                <div className="roadmap-bx wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.80s">
                                     <img src={roadmap2} alt="icon"></img>
                                     <h4>Q2</h4>
                                     <div className="roadmap-bx-info">
@@ -156,7 +156,7 @@ class Landing extends React.Component {
                                 </div>
                             </div>
                             <div className="col-md-3">
-                                <div className="roadmap-bx">
+                                <div className="roadmap-bx wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.50s">
                                     <img src={roadmap3} alt="icon"></img>
                                     <h4>Q3</h4>
                                     <div className="roadmap-bx-info">
@@ -168,7 +168,7 @@ class Landing extends React.Component {
                                 </div>
                             </div>
                             <div className="col-md-3">
-                                <div className="roadmap-bx">
+                                <div className="roadmap-bx wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.20s">
                                     <img src={roadmap4} alt="icon"></img>
                                     <h4>Q4</h4>
                                     <div className="roadmap-bx-info">
@@ -185,7 +185,7 @@ class Landing extends React.Component {
                 </section>
 
 
-                <section className="advantage-sec readystart-sec">
+                <section className="advantage-sec readystart-sec wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.20s">
                     <div className="container">
                         <h4>Ready to start trading with otbTRADE?</h4>
                         <div className="row">

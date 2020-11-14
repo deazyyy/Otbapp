@@ -11,19 +11,22 @@ import {
 
 class Navbar extends React.Component{
     
+    
     constructor(props) {
         super(props);
-        this.state = {toogllenav: 0};
+        this.state = {toogllenav: null};
+        this.changetoogllenav = this.changetoogllenav.bind(this);
       }
       changetoogllenav()
       {
-        this.setState(!(this.state.toogllenav));
+        this.setState({ toogllenav: !this.state.toogllenav })
+        console.log(this.state.toogllenav)
 
       }
     render() {
  
         return (
-            <nav className="navbar navbar-expand-sm ">
+            <nav className="navbar navbar-expand-sm wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.20s">
                 <div className="left_nav">
                     <Link to="/" className="navbar-brand" >
                         <img src={logo} alt="logo"  />
@@ -63,8 +66,8 @@ class Navbar extends React.Component{
                         <img src={socialQues}></img>
                     </div>
                 </div>
-                <div className="nav_mobile_show" style={this.state.toogllenav ? {display:'block'} : {display:'none'}}>
-                    <div className="nav_mobile ">
+                <div className="nav_mobile_show">
+                    <div className={"nav_mobile " + (this.state.toogllenav ? 'nav_mobiles' : 'nav_mobileh')} data-wow-duration="1s" data-wow-delay="1s">
                     <Link to="/" className="navbar-brand" >
                         <img src={logo} alt="logo"  />
                     </Link> 

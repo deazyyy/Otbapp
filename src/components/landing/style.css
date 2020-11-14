@@ -205,11 +205,16 @@ footer .navbar-nav{
 .table-outer{
     border: 2px solid #ededed;
     border-radius: 15px;
+    overflow: scroll;
 }
 .table-row, .table-head{
     display: flex;
     padding: 12px;
+    min-width: 500px;
     background-color: transparent;
+}
+.table-body{
+    min-width: 500px;
 }
 .table-row div, .table-head div{
     width: 25%;
