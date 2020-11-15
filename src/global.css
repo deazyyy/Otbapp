@@ -73,3 +73,32 @@ footer .navbar-nav{
 .mobile-show{
     display: none;
 }
+
+
+
+.black-bx{
+    background-color: #191919;
+    border-radius: 16px;
+    padding: 36px;
+    font-size: 18px;
+    color: #727272;
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+
+.black-bx h4{
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.black-bx h4 div{
+    font-weight: 400;
+    font-size: 14px;
+}
+.black-bx h4 div span{
+    color: #727272;
+}

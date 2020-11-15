@@ -17,14 +17,25 @@ import info from '../../images/icons/info-b.png';
 import vimerco from '../../images/vimerco.png';
 import { PieChart } from 'react-minimal-pie-chart';
 class StakeExchange extends React.Component {
+    stakeholders()
+    {
+        var varrow="";
+        var tenHolders = [];
 
-    render() {
-        var content="";
-        content += (<div className="table-body-row">
+        for(var i=0;i<10;i++)
+        {
+            varrow = (<div className="table-body-row">
             <div>Silver</div>
             <div>234.0</div>
             <div>40%</div>
-        </div>);
+            </div>);
+            tenHolders.push(varrow)
+        }
+        
+        return tenHolders;
+    }
+    render() {
+       
         
         return (
             <div className="stakevote-pg">
@@ -68,6 +79,7 @@ class StakeExchange extends React.Component {
                                         </div>
                                     </div>
                                     <div className="staking-powe-col2">
+                                    <div className="pie-black">
                                     <PieChart
                                     data={[
                                         { title: 'One', value: 10, color: '#5bdf7b' },
@@ -75,6 +87,8 @@ class StakeExchange extends React.Component {
                                         { title: 'Three', value: 20, color: '#7f7f7f' },
                                     ]}
                                     />
+                          
+                                        </div>
                                    
                                     </div>
                                 </div>
@@ -201,12 +215,8 @@ class StakeExchange extends React.Component {
                                         <div>Staked</div>
                                         <div>Percent</div>
                                     </div>
-                                    <div className="table-body">
-                                        <div className="table-body-row">
-                                            <div>Silver</div>
-                                            <div>234.0</div>
-                                            <div>40%</div>
-                                        </div>
+                                    <div className="table-body" id="tenStakeholders">
+                                        {this.stakeholders()}
                                     </div>
                                 </div>
                             </div>

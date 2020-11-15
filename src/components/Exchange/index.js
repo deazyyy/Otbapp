@@ -17,18 +17,100 @@ import info from '../../images/icons/info-b.png';
 import vimerco from '../../images/vimerco.png';
 import { PieChart } from 'react-minimal-pie-chart';
 
-
-
+import {Line} from 'react-chartjs-2';
+const state = {
+    labels: ['January', 'February', 'March',
+             'April', 'May'],
+    datasets: [
+      {
+        label: 'Rainfall',
+        fill: false,
+        lineTension: 0.5,
+        backgroundColor: 'rgba(75,192,192,1)',
+        borderColor: 'rgba(0,0,0,1)',
+        borderWidth: 2,
+        data: [65, 59, 80, 81, 56]
+      }
+    ]
+  }
 class Exchange extends React.Component {
-   
-    render() {
-        var content="";
-        content += (<div className="table-body-row">
-            <div>Silver</div>
-            <div>234.0</div>
-            <div>40%</div>
+    
+    IOSTChange()
+    {
+        var varrow="";
+        var IOSTChange = [];
+
+        for(var i=0;i<8;i++)
+        {
+            varrow = ( <div className="table-body-row">
+            <div>18.95063083</div>
+            <div>131.19311061</div>
+            <div>0.00%</div>
         </div>);
+            IOSTChange.push(varrow)
+        }
         
+        return IOSTChange;
+    }
+
+    OrderBook()
+    {
+        var varrow="";
+        var OrderBook = [];
+        var imax=29;
+        for(var i=0;i<imax;i++)
+        {
+            if(i<(imax/2))
+            {
+                varrow = ( <div className="table-body-row">
+                    <div className="red">18.95063083</div>
+                    <div>131.19311061</div>
+                    <div>2486.19220661</div>
+                </div>);
+            }else{
+                varrow = ( <div className="table-body-row">
+                    <div className="green">18.95063083</div>
+                    <div>131.19311061</div>
+                    <div>2486.19220661</div>
+                </div>);
+            }
+           
+            OrderBook.push(varrow)
+        }
+        
+        return OrderBook;
+    }
+
+
+    RecentTrades()
+    {
+        var varrow="";
+        var RecentTrades = [];
+        var imax=14;
+        for(var i=0;i<imax;i++)
+        {
+            if(i%2==0)
+            {
+                varrow = ( <div className="table-body-row">
+                <div className="red">18.95063083</div>
+                <div>131.19311061</div>
+                <div>11/6/2020 9:15</div>
+            </div>);
+            }else{
+                varrow = ( <div className="table-body-row">
+                <div className="green">18.95063083</div>
+                <div>131.19311061</div>
+                <div>11/6/2020 9:15</div>
+            </div>);
+            }
+           
+            RecentTrades.push(varrow)
+        }
+        
+        return RecentTrades;
+    }
+
+    render() {        
         return (
             <div className="stakevote-pg">
                 <Navbar/>   
@@ -37,18 +119,14 @@ class Exchange extends React.Component {
                         <div className="col-width-25">
                             <div className="black-bx">
                                 <h4>Order book <div>0.0000</div></h4>
-                                <div className="stake-table-outer">
+                                <div className="stake-table-outer mb-2">
                                     <div className="table-head">
                                         <div>Price (IOST)</div>
                                         <div>Amount (OTBC)</div>
                                         <div></div>
                                     </div>
-                                    <div className="table-body">
-                                        <div className="table-body-row">
-                                            <div className="red">18.95063083</div>
-                                            <div>131.19311061</div>
-                                            <div>2486.19220661</div>
-                                        </div>
+                                    <div className="table-body" id="OrderBook">
+                                        {this.OrderBook()}
                                     </div>
                                 </div>
                             </div>
@@ -73,6 +151,24 @@ class Exchange extends React.Component {
                                             <div>20.42467992</div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                            <div className="black-bx">
+                                <div>
+                                    <Line
+                                        data={state}
+                                        options={{
+                                            title:{
+                                            display:true,
+                                            text:'TradeChart',
+                                            fontSize:20
+                                            },
+                                            legend:{
+                                            display:true,
+                                            position:'right'
+                                            }
+                                        }}
+                                    />
                                 </div>
                             </div>
                             <div className="exchange-blck-bx-outer">
@@ -175,11 +271,8 @@ class Exchange extends React.Component {
                                         <div>Change</div>
                                     </div>
                                     <div className="table-body">
-                                        <div className="table-body-row">
-                                            <div>18.95063083</div>
-                                            <div>131.19311061</div>
-                                            <div>0.00%</div>
-                                        </div>
+                                        {this.IOSTChange()}
+
                                     </div>
                                 </div>
                                 
@@ -193,11 +286,7 @@ class Exchange extends React.Component {
                                         <div>Time</div>
                                     </div>
                                     <div className="table-body">
-                                        <div className="table-body-row">
-                                            <div className="red">18.95063083</div>
-                                            <div>131.19311061</div>
-                                            <div>2486.19220661</div>
-                                        </div>
+                                        {this.RecentTrades()}
                                     </div>
                                 </div>
                             </div>
