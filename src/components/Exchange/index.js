@@ -116,7 +116,7 @@ class Exchange extends React.Component {
                 <Navbar/>   
                 <div className="Exchange_main_outer">
                     <div className="exchange_first_row">
-                        <div className="col-width-25">
+                        <div className="col-width-25 exchangecol1">
                             <div className="black-bx">
                                 <h4>Order book <div>0.0000</div></h4>
                                 <div className="stake-table-outer mb-2">
@@ -252,7 +252,7 @@ class Exchange extends React.Component {
                             
                         </div>
                         
-                        <div className="col-width-25">
+                        <div className="col-width-25 exchangecol2">
                             <div className="black-bx Exchange_black-bx Exchange_black-bx-right">
                                 <div className="Exchange_bs">
                                     <a className="btn-main active">Exchange</a>
@@ -360,7 +360,6 @@ class Exchange extends React.Component {
                 </div>
                
                 <footer>
-                    <Navbar/>
                     <div className="comp-logo">
                         <img src={vimerco} alt="icon"></img>
                     </div>
