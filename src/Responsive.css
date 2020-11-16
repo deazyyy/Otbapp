@@ -820,7 +820,7 @@
 
 
 	footer{
-		padding: 30px 15px;
+		padding: 30px;
 	}
 	footer .navbar-nav{
 		position: relative;
@@ -832,13 +832,14 @@
 	}
 
 	footer .left_nav{
-		flex-direction: column
+		flex-direction: column;
+		align-items: flex-start;
 	}
 	footer .navbar{
 		padding: 0 ;
 	}
 	footer .nav-social{
-		margin: 10px auto;
+		margin: 10px 0 10px 0;
 	}
 
 
