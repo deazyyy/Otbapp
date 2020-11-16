@@ -16,6 +16,8 @@ import roadmap4 from '../../images/icons/r4.png';
 
 import vimerco from '../../images/vimerco.png';
 
+import mkt1 from '../../images/icons/mkt1.png';
+import Footer from '../Footer';
 class Landing extends React.Component {
     render() {
         return (
@@ -55,19 +57,19 @@ class Landing extends React.Component {
                                 </div>
                                 <div className="table-body">
                                     <div className="table-row">
-                                        <div>IOST</div>
+                                        <div><span><img src={mkt1}></img>IOST</span></div>
                                         <div>0.00342</div>
                                         <div>3%</div>
                                         <div>345435436  </div>
                                     </div>
                                     <div className="table-row">
-                                        <div>IOST</div>
+                                        <div><span><img src={mkt1}></img>IOST</span></div>
                                         <div>0.00342</div>
                                         <div>3%</div>
                                         <div>345435436  </div>
                                     </div>
                                     <div className="table-row">
-                                        <div>IOST</div>
+                                        <div><span><img src={mkt1}></img>IOST</span></div>
                                         <div>0.00342</div>
                                         <div>3%</div>
                                         <div>345435436  </div>
@@ -213,7 +215,7 @@ class Landing extends React.Component {
                 </section>
 
                 <footer>
-                  
+                    <Footer/>
                     <div className="comp-logo">
                         <img src={vimerco} alt="icon"></img>
                     </div>
