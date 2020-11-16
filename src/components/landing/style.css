@@ -136,9 +136,16 @@
 }
 .advantage-sec .btn-main{
     background-color: #fff;
+    display: flex;
+    align-items: center;
 }
 
-
+.advantage-sec .btn-main img{
+    display: inline;
+    margin-right: 6px;
+    height: 16px;
+    width: auto;
+}
 
 
 

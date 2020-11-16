@@ -53,6 +53,7 @@ footer{
 }
 footer .navbar{
     padding: 0px 50px 0 50px;
+    margin-bottom: 0;
 }
 footer .left_nav{
     width: 100%;

@@ -16,15 +16,52 @@ import roadmap4 from '../../images/icons/r4.png';
 
 import vimerco from '../../images/vimerco.png';
 
-import mkt1 from '../../images/icons/mkt1.png';
-import mkt2 from '../../images/icons/mkt2.png';
-import mkt3 from '../../images/icons/mkt3.png';
-import mkt4 from '../../images/icons/mkt4.png';
-import mkt5 from '../../images/icons/mkt5.png';
-import mkt6 from '../../images/icons/mkt6.png';
-import mkt7 from '../../images/icons/mkt7.png';
+
+import wallet from '../../images/icons/wallet.png';
+import user from '../../images/icons/user.png';
+import trading from '../../images/icons/trading.png';
+
 import Footer from '../Footer';
+let newas =[];
+var counterstart =1, counterend =counterstart+6;
 class Landing extends React.Component {
+    constructor(props) {
+        super();
+       
+        this.state = {TopMarketsv :[],name:'as'};
+        this.TopMarkets = this.TopMarkets.bind(this);
+        this.Loadmore = this.Loadmore.bind(this);
+        this.TopMarkets()
+    }
+    
+    TopMarkets()
+    {
+       
+        var varrow="";
+        console.log('te');
+        for(var i=counterstart;i<=counterend;i++)
+        {
+            console.log('te')
+            varrow = ( <div className="table-row">
+                <div><span><img src={require('../../images/icons/mkt'+1+'.png').default}></img>METX/IOST</span></div>
+                <div>0.00342</div>
+                <div className="green">+36.45%</div>
+                <div>345435436  </div>
+            </div>);
+            newas.push(varrow)
+            this.setState({TopMarketsv:newas})
+            console.log(this.state.TopMarketsv)
+        }
+    }
+    Loadmore()
+    {
+        counterstart = 8;
+        counterend =counterstart+6;
+        this.TopMarkets();
+       
+    }
+   
+    
     render() {
         return (
             <div>
@@ -55,6 +92,7 @@ class Landing extends React.Component {
                         <h4>Explore Top Markets</h4>
                         <div className="section-info">
                             <div className="table-outer">
+                               
                                 <div className="table-head">
                                     <div>Name</div>
                                     <div>Last Price (IOST)</div>
@@ -62,49 +100,10 @@ class Landing extends React.Component {
                                     <div>24h Volume</div>
                                 </div>
                                 <div className="table-body">
-                                    <div className="table-row">
-                                        <div><span><img src={mkt1}></img>METX/IOST</span></div>
-                                        <div>0.00342</div>
-                                        <div className="green">+36.45%</div>
-                                        <div>345435436  </div>
-                                    </div>
-                                    <div className="table-row">
-                                        <div><span><img src={mkt2}></img>OTBC/IOST</span></div>
-                                        <div>0.00342</div>
-                                        <div>3%</div>
-                                        <div>345435436  </div>
-                                    </div>
-                                    <div className="table-row">
-                                        <div><span><img src={mkt3}></img>TIX/IOST</span></div>
-                                        <div>0.00342</div>
-                                        <div>3%</div>
-                                        <div>345435436  </div>
-                                    </div>
-                                    <div className="table-row">
-                                        <div><span><img src={mkt4}></img>BOOTY/IOST</span></div>
-                                        <div>0.00342</div>
-                                        <div>3%</div>
-                                        <div>345435436  </div>
-                                    </div>
-                                    <div className="table-row">
-                                        <div><span><img src={mkt5}></img>IOSTMOON/IOST</span></div>
-                                        <div>0.00342</div>
-                                        <div>3%</div>
-                                        <div>345435436  </div>
-                                    </div>
-                                    <div className="table-row">
-                                        <div><span><img src={mkt6}></img>PER/IOST</span></div>
-                                        <div>0.00342</div>
-                                        <div>3%</div>
-                                        <div>345435436  </div>
-                                    </div>
-                                    <div className="table-row">
-                                        <div><span><img src={mkt7}></img>PLAYGOLD/IOST</span></div>
-                                        <div>0.00342</div>
-                                        <div>3%</div>
-                                        <div>345435436  </div>
-                                    </div>
-                                    <div className="table-row table-row-more">
+                                   
+                                    {this.state.TopMarketsv}
+                                   
+                                    <div className="table-row table-row-more" onClick={this.Loadmore}>
                                         View more markets
                                     </div>
                                 </div>
@@ -227,19 +226,19 @@ class Landing extends React.Component {
                             <div className="col-md-4">
                                 <div className="readystart-bx">
                                     Don't have a wallet? 
-                                    <a className="btn-main" href="#">Create A Wallet</a>                                   
+                                    <a className="btn-main" href="#"><img src={wallet}></img> Create A Wallet</a>                                   
                                 </div>
                             </div>
                             <div className="col-md-4">
                                 <div className="readystart-bx">
                                     Login to web/mobile wallet.
-                                    <a className="btn-main" href="#">Login</a>                                   
+                                    <a className="btn-main" href="#"><img src={user}></img> Login</a>                                   
                                 </div>
                             </div>
                             <div className="col-md-4">
                                 <div className="readystart-bx">
                                     Start exploring our token pairs.
-                                    <a className="btn-main" href="#">Start Trading</a>                                   
+                                    <a className="btn-main" href="#"><img src={trading}></img> Start Trading</a>                                   
                                 </div>
                             </div>
                             
