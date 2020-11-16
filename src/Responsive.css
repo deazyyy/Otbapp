@@ -817,6 +817,9 @@
 		padding: 15px 15px 0 15px;
 		margin-bottom: 0;
 	}
+	.nav_mobile_show{
+		display: block;
+	}
 
 
 	footer{

@@ -33,6 +33,10 @@
 }
 .nav_mobile_show{
     animation: all 1s linear;
+    display: block;
+}
+.nav_mobile_showx{
+    display: none;
 }
 
 .nav_mobile_show{
