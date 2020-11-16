@@ -56,6 +56,10 @@
     left: 0;
     animation: navin 0.6s
 }
+.nav_mobileh{
+    left: -54vw;
+    animation: navout 0.6s
+}
 @keyframes navin {
     from {left: -54vw;}
     to {left: 0;}
