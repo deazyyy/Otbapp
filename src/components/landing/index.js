@@ -17,6 +17,12 @@ import roadmap4 from '../../images/icons/r4.png';
 import vimerco from '../../images/vimerco.png';
 
 import mkt1 from '../../images/icons/mkt1.png';
+import mkt2 from '../../images/icons/mkt2.png';
+import mkt3 from '../../images/icons/mkt3.png';
+import mkt4 from '../../images/icons/mkt4.png';
+import mkt5 from '../../images/icons/mkt5.png';
+import mkt6 from '../../images/icons/mkt6.png';
+import mkt7 from '../../images/icons/mkt7.png';
 import Footer from '../Footer';
 class Landing extends React.Component {
     render() {
@@ -57,22 +63,49 @@ class Landing extends React.Component {
                                 </div>
                                 <div className="table-body">
                                     <div className="table-row">
-                                        <div><span><img src={mkt1}></img>IOST</span></div>
+                                        <div><span><img src={mkt1}></img>METX/IOST</span></div>
+                                        <div>0.00342</div>
+                                        <div className="green">+36.45%</div>
+                                        <div>345435436  </div>
+                                    </div>
+                                    <div className="table-row">
+                                        <div><span><img src={mkt2}></img>OTBC/IOST</span></div>
                                         <div>0.00342</div>
                                         <div>3%</div>
                                         <div>345435436  </div>
                                     </div>
                                     <div className="table-row">
-                                        <div><span><img src={mkt1}></img>IOST</span></div>
+                                        <div><span><img src={mkt3}></img>TIX/IOST</span></div>
                                         <div>0.00342</div>
                                         <div>3%</div>
                                         <div>345435436  </div>
                                     </div>
                                     <div className="table-row">
-                                        <div><span><img src={mkt1}></img>IOST</span></div>
+                                        <div><span><img src={mkt4}></img>BOOTY/IOST</span></div>
                                         <div>0.00342</div>
                                         <div>3%</div>
                                         <div>345435436  </div>
+                                    </div>
+                                    <div className="table-row">
+                                        <div><span><img src={mkt5}></img>IOSTMOON/IOST</span></div>
+                                        <div>0.00342</div>
+                                        <div>3%</div>
+                                        <div>345435436  </div>
+                                    </div>
+                                    <div className="table-row">
+                                        <div><span><img src={mkt6}></img>PER/IOST</span></div>
+                                        <div>0.00342</div>
+                                        <div>3%</div>
+                                        <div>345435436  </div>
+                                    </div>
+                                    <div className="table-row">
+                                        <div><span><img src={mkt7}></img>PLAYGOLD/IOST</span></div>
+                                        <div>0.00342</div>
+                                        <div>3%</div>
+                                        <div>345435436  </div>
+                                    </div>
+                                    <div className="table-row table-row-more">
+                                        View more markets
                                     </div>
                                 </div>
 
@@ -134,7 +167,7 @@ class Landing extends React.Component {
                         <h4 className =" wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.20s">Roadmap</h4>
                         <div className="row">
                             <div className="col-md-3">
-                                <div className="roadmap-bx wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1.10s">
+                                <div className="roadmap-bx wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.20s">
                                     <img src={roadmap1} alt="icon"></img>
                                     <h4>Q1</h4>
                                     <div className="roadmap-bx-info">
@@ -146,7 +179,7 @@ class Landing extends React.Component {
                                 </div>
                             </div>
                             <div className="col-md-3">
-                                <div className="roadmap-bx wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.80s">
+                                <div className="roadmap-bx wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.50s">
                                     <img src={roadmap2} alt="icon"></img>
                                     <h4>Q2</h4>
                                     <div className="roadmap-bx-info">
@@ -158,7 +191,7 @@ class Landing extends React.Component {
                                 </div>
                             </div>
                             <div className="col-md-3">
-                                <div className="roadmap-bx wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.50s">
+                                <div className="roadmap-bx wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.80s">
                                     <img src={roadmap3} alt="icon"></img>
                                     <h4>Q3</h4>
                                     <div className="roadmap-bx-info">
@@ -170,7 +203,7 @@ class Landing extends React.Component {
                                 </div>
                             </div>
                             <div className="col-md-3">
-                                <div className="roadmap-bx wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.20s">
+                                <div className="roadmap-bx wow fadeInRight" data-wow-duration="1s" data-wow-delay="1.10s">
                                     <img src={roadmap4} alt="icon"></img>
                                     <h4>Q4</h4>
                                     <div className="roadmap-bx-info">

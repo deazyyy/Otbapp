@@ -905,6 +905,32 @@
 		font-size: 32px;
 		margin-bottom: 12px;
 	}
+	/** explore **/
+	.explore-sec .table-body{
+		min-width: 690px;
+	}
+	.explore-sec .table-head{
+		min-width: 690px;
+	}
+	.explore-sec .table-head, .explore-sec .table-row{
+		padding: 12px 20px;
+	}
+	.explore-sec .table-row {
+		font-size: 14px;
+	}
+	.explore-sec{
+		padding-top: 00px;
+	}
+	/* .explore-sec .section-info::before{
+		height:70vw;
+		width: 70vw;
+		z-index: -1;
+		border-radius: 50%;
+		top: -12vw;
+		left: -12vw;
+		background-size: 100% 100%;
+	} */
+
 	.section-info{
 		font-size: 16px;
 	}

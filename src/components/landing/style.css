@@ -26,6 +26,10 @@
     background-color: #49d191;
     padding: 14px 26px;
 }
+.banner-section .btn-main:hover{
+    color: #000;
+    transform: scale(1.07) !important;  
+}
 .banner-info div{
     margin-bottom: 26px ;
 }
@@ -44,7 +48,10 @@
     font-family: "Exo";
     text-align: center;
     font-size: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+.roadmap-sec h4{
+    margin-bottom: 60px;
 }
 .section-info{
     color: #727272;
@@ -55,7 +62,42 @@
 }
 
 
-
+.explore-sec{
+    position: relative;
+    padding-top: 100px;
+}
+.explore-sec .section-info{
+    position: relative;
+    background-color: #fff;
+}
+.explore-sec .section-info::before{
+    position: absolute;
+    content: "";
+    background: url('../../images/shapes/gradCircle.png');
+    height: 30vw;
+    width: 30vw;
+    z-index: -1;
+    border-radius: 50%;
+    top: -12vw;
+    left: -12vw;
+    background-size: 100% 100%;
+}
+.explore-sec .table-outer{
+    text-align: left;
+}
+.explore-sec .table-head, .explore-sec .table-row{
+    padding: 12px 40px;
+}
+.explore-sec .table-row{
+    font-size: 16px;
+}
+.table-row-more{
+    color: #49d191;
+    font-weight: 500;
+    justify-content: center;
+    border: none !important;
+    cursor: pointer;
+}
 
 
 /*advantage*/
@@ -92,7 +134,9 @@
     font-family: "Exo";
     text-align: center;
 }
-
+.advantage-sec .btn-main{
+    background-color: #fff;
+}
 
 
 

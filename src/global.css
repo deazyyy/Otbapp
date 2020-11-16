@@ -35,12 +35,17 @@ nav{
     padding: 10px 26px;
     font-weight: 600;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 nav .btn-main{
     background: #fff;
 }
 
-
+.btn-main:hover{
+    color: initial;
+    transform: scale(1.07);
+    
+}
 
 footer{
     background-color: #0f0f0f;
