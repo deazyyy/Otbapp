@@ -1,23 +1,9 @@
 import React from 'react';
 import Navbar from '../Navbar/navbar';
 import './style.css';
-
-import adv1 from '../../images/icons/1.png';
-import adv2 from '../../images/icons/2.png';
-import adv3 from '../../images/icons/3.png';
-import adv4 from '../../images/icons/4.png';
-
-
-
-import roadmap1 from '../../images/icons/r1.png';
-import roadmap2 from '../../images/icons/r2.png';
-import roadmap3 from '../../images/icons/r3.png';
-import info from '../../images/icons/info-b.png';
-
+import Footer from '../Footer';
 import vimerco from '../../images/vimerco.png';
-import { PieChart } from 'react-minimal-pie-chart';
 
-import {Line} from 'react-chartjs-2';
 const state = {
     labels: ['January', 'February', 'March',
              'April', 'May'],
@@ -153,7 +139,7 @@ class Exchange extends React.Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="black-bx">
+                            {/* <div className="black-bx">
                                 <div>
                                     <Line
                                         data={state}
@@ -170,7 +156,7 @@ class Exchange extends React.Component {
                                         }}
                                     />
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="exchange-blck-bx-outer">
                                 <div className="black-bx Exchange_black-bx">
                                     <div className="Exchange_bs">
@@ -360,6 +346,7 @@ class Exchange extends React.Component {
                 </div>
                
                 <footer>
+                    <Footer/>
                     <div className="comp-logo">
                         <img src={vimerco} alt="icon"></img>
                     </div>

@@ -218,6 +218,7 @@
 .exchange_first_row{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 16px;
 }
 .col-width-25{
     width:-webkit-fill-available;
