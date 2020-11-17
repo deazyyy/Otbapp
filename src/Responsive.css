@@ -861,7 +861,9 @@
 	footer .nav-social{
 		margin: 10px 0 10px 0;
 	}
-
+	.tooltip_outer{
+		width: 30px !important;
+	}
 
 
 
@@ -1100,4 +1102,5 @@
 	}
 
 }
+
 
