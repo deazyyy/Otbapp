@@ -601,7 +601,10 @@
 		margin: 0;
 	}
 
-
+	/**events**/
+	.Events_pg{
+		width: 100%;
+	}
 
 
 
@@ -818,6 +821,10 @@
 	.pastwinner-innerbx .medal{
 		top: -5px;
 		right: -12px;
+	}
+	/**events**/
+	.Events_pg{
+		width: 100%;
 	}
 
 }
@@ -1087,6 +1094,10 @@
 			top: -5px;
 			right: -12px;
 		}
+	/**events**/
+	.Events_pg{
+		width: 100%;
+	}
 
 }
 
