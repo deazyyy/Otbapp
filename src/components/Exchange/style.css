@@ -363,6 +363,7 @@
 .row_left-btns{
     display: flex;
     align-items: center;
+    position: relative;
 }
 .row_left-btns .btn{
     padding: 6px 10px;
@@ -379,4 +380,5 @@ font-family: "Exo";
     display: inline;
     width: 18px;
     margin-left: 6px;
+    cursor: pointer;
 }

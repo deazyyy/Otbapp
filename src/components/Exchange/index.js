@@ -116,7 +116,7 @@ class Exchange extends React.Component {
                                                 <a class="dropdown-item" href="#">10</a>
                                             </div>
                                         </div>
-                                        <img src={info}/>
+                                        <div className="tooltip_outer" data-tooltip="Hello, I am a Tooltip"><img  src={info} /></div>
                                     </div>
                                 </h4>
                                 <div className="stake-table-outer mb-2">
@@ -153,8 +153,8 @@ class Exchange extends React.Component {
                                     </div>
                                 </div>
                             </div>
-                            {/* <div className="black-bx">
-                                <div>
+                            <div className="black-bx">
+                                {/* <div>
                                     <Line
                                         data={state}
                                         options={{
@@ -169,8 +169,8 @@ class Exchange extends React.Component {
                                             }
                                         }}
                                     />
-                                </div>
-                            </div> */}
+                                </div> */}
+                            </div>
                             <div className="exchange-blck-bx-outer">
                                 <div className="black-bx Exchange_black-bx">
                                     <div className="Exchange_bs">
@@ -290,7 +290,7 @@ class Exchange extends React.Component {
                                                 <a class="dropdown-item" href="#">10</a>
                                             </div>
                                         </div>
-                                        <img src={info}/>
+                                        <div className="tooltip_outer" data-tooltip="Hello, I am a Tooltip"><img  src={info} /></div>
                                     </div>
                                 </h4>
                                 <div className="stake-table-outer">
