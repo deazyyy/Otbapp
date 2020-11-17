@@ -4,7 +4,7 @@ import './style.css';
 import socialTele from '../../images/icons/telegram.png';
 import socialQues from '../../images/icons/help-web-button.png';
 import socialTwitter from '../../images/icons/twitter.png';
-
+import wallet from '../../images/icons/wallet.png';
 import { 
     Link, 
 } from 'react-router-dom'; 
@@ -40,7 +40,7 @@ class Footer extends React.Component{
                 </div>
               
                 <div className="nav-social">
-                    <a className="btn-main" href="#">Login</a>
+                    <a className="btn-main" href="#"><img src={wallet}></img>Login</a>
                     <img src={socialTele}></img>
                     <img src={socialTwitter}></img>
                     <img src={socialQues}></img>
