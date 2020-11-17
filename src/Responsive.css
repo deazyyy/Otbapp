@@ -810,6 +810,12 @@
 		min-width: 700px !important;
 	}
 
+	/** modal***/
+	.pastwinner-innerbx .medal{
+		top: -5px;
+		right: -12px;
+	}
+
 }
 @media(max-width:447px){
 	.navbar {
@@ -1065,6 +1071,13 @@
 			font-size: 11px;
 			margin-left: 0;
 			margin-right: 5px
+		}
+
+
+		/** modal***/
+		.pastwinner-innerbx .medal{
+			top: -5px;
+			right: -12px;
 		}
 
 }

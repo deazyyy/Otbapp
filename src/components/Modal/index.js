@@ -15,6 +15,7 @@ import roadmap3 from '../../images/icons/r3.png';
 import roadmap4 from '../../images/icons/r4.png';
 
 import vimerco from '../../images/vimerco.png';
+import medal from '../../images/icons/medal.png';
 import tickets from '../../images/icons/tickets.png';
 import close from '../../images/icons/close.png';
 class Modal extends React.Component {
@@ -122,6 +123,7 @@ class Modal extends React.Component {
                             <div className="pastwinner-row">
                                 <h4>11/4/2020</h4>
                                 <div className="pastwinner-innerbx">
+                                    <img src={medal} className="medal"></img>
                                     <div><span>Winners : </span>tlopes, marcelo2802, bmierk, smwu2020, boricgold</div>
                                     <div><span>Win Amount : </span>1303.839002796</div>
                                     <div><span>Tx Hash : </span><span className="green">DWk5SiZ6sc7xrqGxEy2SeGkf7SBj3ApsTRkDugWbnNy5</span></div>
@@ -130,6 +132,7 @@ class Modal extends React.Component {
                             <div className="pastwinner-row">
                                 <h4>11/4/2020</h4>
                                 <div className="pastwinner-innerbx">
+                                    <img src={medal} className="medal"></img>
                                     <div><span>Winners : </span>tlopes, marcelo2802, bmierk, smwu2020, boricgold</div>
                                     <div><span>Win Amount : </span>1303.839002796</div>
                                     <div><span>Tx Hash : </span><span className="green">DWk5SiZ6sc7xrqGxEy2SeGkf7SBj3ApsTRkDugWbnNy5</span></div>
@@ -138,6 +141,7 @@ class Modal extends React.Component {
                             <div className="pastwinner-row">
                                 <h4>11/4/2020</h4>
                                 <div className="pastwinner-innerbx">
+                                    <img src={medal} className="medal"></img>
                                     <div><span>Winners : </span>tlopes, marcelo2802, bmierk, smwu2020, boricgold</div>
                                     <div><span>Win Amount : </span>1303.839002796</div>
                                     <div><span>Tx Hash : </span><span className="green">DWk5SiZ6sc7xrqGxEy2SeGkf7SBj3ApsTRkDugWbnNy5</span></div>

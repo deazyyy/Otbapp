@@ -129,6 +129,7 @@
     background-color: rgba(0,0,0,0);
     border: 2px solid #2f2f2f;
     padding: 20px;
+    position: relative;
 }
 .pastwinner-innerbx div span{
     color: #fff;
@@ -139,6 +140,13 @@
     display: flex;
     word-break: break-all;
     margin-bottom: 8px;
+}
+.pastwinner-innerbx .medal{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 24px;
+    height: auto;
 }
 .green{
     color:#49D191 !important;
