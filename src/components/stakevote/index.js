@@ -12,7 +12,7 @@ import adv4 from '../../images/icons/4.png';
 
 import roadmap1 from '../../images/icons/r1.png';
 import roadmap2 from '../../images/icons/r2.png';
-import roadmap3 from '../../images/icons/r3.png';
+import flash from '../../images/icons/flash.png';
 import info from '../../images/icons/info-b.png';
 
 import vimerco from '../../images/vimerco.png';
@@ -123,7 +123,7 @@ class StakeExchange extends React.Component {
                                     <div className="form-group">
                                         <input type="email" class="form-control" placeholder="0.00000000" id="email" />
                                         <div>
-                                            <a href="" className="btn-main">Unstake</a>
+                                            <a href="" className="btn-main">Unstake<img  src={flash} className="flash" /></a>
                                             <div className="tooltip_outer" data-tooltip="Hello, I am a Tooltip"><img  src={info} /></div>
                                         </div>
                                     </div>

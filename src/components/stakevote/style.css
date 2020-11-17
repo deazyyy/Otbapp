@@ -54,7 +54,10 @@
 
 
 
-
+.flash{
+    height: 16px !important;
+    width: auto  !important;
+}
 .staking-power-row{
     display: flex;
     flex-direction: row;
