@@ -61,33 +61,38 @@ class StakeExchange extends React.Component {
 
                                         <div className="form-group-outer">
                                             <div className="form-group">
-                                                <label for="email">Max</label>
+                                                <label className="form-max">Max</label>
                                                
                                                     <input type="email" class="form-control" placeholder="0.00000000" id="email" />
                                                     <span>OTBC</span>
                                                 
                                             </div>
                                             <div className="form-group">
-                                                <label for="email">Max</label>
+                                                <label className="form-stake">Staked</label>
                                                 <input type="email" class="form-control" placeholder="0.00000000" id="email" />
                                                 <span>OTBC</span>
                                             </div>
                                             <div className="form-group">
-                                                <label for="email">Max</label>
+                                                <label className="form-aval">Available</label>
                                                 <input type="email" class="form-control" placeholder="0.00000000" id="email" />
                                                 <span>OTBC</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="staking-powe-col2">
-                                    <div className="pie-black">
-                                    <PieChart
-                                    data={[
-                                        { title: 'One', value: 10, color: '#5bdf7b' },
-                                        { title: 'Two', value: 15, color: '#fbdd07' },
-                                        { title: 'Three', value: 20, color: '#7f7f7f' },
-                                    ]}
-                                    />
+                                        <div className="pie_heading">
+                                            <label className="form-max">Max</label>
+                                            <label className="form-aval">Available</label>
+                                            <label className="form-stake">Staked</label>
+                                        </div>
+                                        <div className="pie-black">                                     
+                                            <PieChart
+                                            data={[
+                                                { title: 'One', value: 10, color: '#5bdf7b' },
+                                                { title: 'Two', value: 15, color: '#fbdd07' },
+                                                { title: 'Three', value: 20, color: '#7f7f7f' },
+                                            ]}
+                                            />
                           
                                         </div>
                                    
@@ -105,21 +110,21 @@ class StakeExchange extends React.Component {
                                         <input type="email" class="form-control" placeholder="0.00000000" id="email" />
                                         <div>
                                             <a href="" className="btn-main">Stake </a>
-                                            <img src={info} />
+                                            <img src={info} style={{opacity:0}}/>
                                         </div>
                                     </div>
                                     <div className="form-group">
                                         <input type="email" class="form-control" placeholder="0.00000000" id="email" />
                                         <div>
                                             <a href="" className="btn-main">Unstake</a>
-                                            <img src={info} />
+                                            <div className="tooltip_outer" data-tooltip="Hello, I am a Tooltip"><img  src={info} /></div>
                                         </div>
                                     </div>
                                     <div className="form-group">
                                         <input type="email" class="form-control" placeholder="0.00000000" id="email" />
                                         <div>
                                             <a href="" className="btn-main">Unstake</a>
-                                            <img src={info} />
+                                            <div className="tooltip_outer" data-tooltip="Hello, I am a Tooltip"><img  src={info} /></div>
                                         </div>
                                     </div>
                                 </div>
@@ -157,9 +162,10 @@ class StakeExchange extends React.Component {
                         <div className="col-sm-12 col-md-12 col-lg-4 second_col">
                             <div className="black-bx">
                                 <h4>Staking Reward <div>0.0000 <span>IOST</span></div></h4>
-                                <div className="black-sbx">
+                                <div className="black-sbx mb-3">
                                 There are a total of 164200.2141635 OTBC staked on the network. You will earn 0 IOST for the next payout.
                                 </div>
+                                <h4>Vote For Our Node</h4>
                                 <div className="form-group-outer">
                                     <div className="form-group">
                                         <label for="email">Node Total Votes</label>
@@ -188,14 +194,14 @@ class StakeExchange extends React.Component {
                                         <input type="email" class="form-control" placeholder="0.00000000" id="email" />
                                         <div>
                                             <a href="" className="btn-main">Vote </a>
-                                            <img src={info} />
+                                            <img src={info} style={{opacity:0}}/>
                                         </div>
                                     </div>
                                     <div className="form-group">
                                         <input type="email" class="form-control" placeholder="0.00000000" id="email" />
                                         <div>
                                             <a href="" className="btn-main">Unvote </a>
-                                            <img src={info} />
+                                            <div className="tooltip_outer" data-tooltip="Hello, I am a Tooltip"><img  src={info} /></div>
                                         </div>
                                     </div>
                                 </div>

@@ -65,6 +65,9 @@
 .input_outer{
     position: relative;
 }
+.form-group .tooltip_outer{
+    display: inline;
+}
 .form-group-outer .form-group label{
     font-size: 16px !important;
 }
@@ -137,6 +140,7 @@
     display: inline;
     margin-left: 8px;
     width: 22px;
+    cursor: pointer;
 }
 
 
@@ -156,16 +160,18 @@
 
 .pie-black{
     position: relative;
+    width: 70%;
+    margin: auto;
 }
 .pie-black:after{
     content: "";
     position: absolute;
     border-radius: 50%;
     background: #191919;
-    width: calc(100% - 20px);
-    height: calc(100% - 20px);
-    left: 10px;
-    top: 10px;
+    width: calc(100% - 26px);
+    height: calc(100% - 26px);
+    left: 13px;
+    top: 13px;
 }
 
 
@@ -215,4 +221,66 @@
 .stake-table-outer .table-body-row div:nth-child(2)
 {
     width: 40%;
+}
+
+.form-max{
+    position: relative;
+    padding-left: 14px;
+}
+.form-max:before{
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #7f7f7f;
+}
+
+.form-stake{
+    position: relative;
+    padding-left: 14px;
+}
+.form-stake:before{
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #fbdd07;
+}
+
+.form-aval{
+    position: relative;
+    padding-left: 14px;
+}
+.form-aval:before{
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #5bdf7b;
+}
+.pie_heading{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.pie_heading label{
+    margin: 0;
+    font-size: 15px;
+}
+.pie_heading label:nth-child(2)
+{
+    margin: 0 20px;
 }
