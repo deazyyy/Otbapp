@@ -648,7 +648,11 @@
 
 
 
-
+	.stakevote-pg:before{
+		background-size: cover;
+		width: 50vw;
+		height: 120px;
+	}
 
 	.mobile-hide{
 		display: none;
@@ -855,7 +859,11 @@
 
 
 
-
+	.stakevote-pg:before{
+		background-size: cover;
+		width: 130px;
+		height: 140px;
+	}
 
 
 

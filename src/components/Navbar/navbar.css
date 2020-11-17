@@ -39,7 +39,8 @@
 .nav-social .btn-main img{
     margin: 0;
     margin-right: 8px;
-    margin-top: -4px;
+    margin-top: -2px;
+    width: 16px;
 }
 .nav_mobile_show{
     animation: all 1s linear;

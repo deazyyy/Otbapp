@@ -1,13 +1,28 @@
 .stakevote-pg{
-    background-image: url('../../images/Background.png') !important;
+    background-color: #0f0f0f;
+    /* background-image: url('../../images/background2.png') !important; */
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    
 }
+.stakevote-pg:before{
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 30vw;
+    height: 120px;
+    background-image: url('../../images/backgroundgreen-top.png') !important;
+    background-size: 100% 100%;
 
+}
+.exchange-pg{
+    background-position-y: -60px;
+}
 .stake_heading_main{
     font-size: 15px;
     line-height: 26px;
@@ -213,6 +228,7 @@
 
 .Exchange_main_outer{
     margin: 0 5%;
+    margin-top: 60px;
 }
 
 .exchange_first_row{
@@ -333,4 +349,34 @@
 .Exchange_black-bx-right{
     margin-left: 0;
     margin-right: 0;
+}
+.mktlogo{
+    display: flex;
+    align-items: center;
+}
+.mktlogo img{
+    display: inline;
+    width: 18px;
+    margin-right: 6px;
+}
+
+.row_left-btns{
+    display: flex;
+    align-items: center;
+}
+.row_left-btns .btn{
+    padding: 6px 10px;
+    border-radius: 10px;
+background-color: #2b2b2b;
+color: #666666;
+font-weight: 400;
+font-family: "Exo";
+}
+.row_left-btns .btn:focus{
+    box-shadow: none;
+}
+.row_left-btns img{
+    display: inline;
+    width: 18px;
+    margin-left: 6px;
 }

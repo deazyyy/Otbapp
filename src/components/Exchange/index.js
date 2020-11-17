@@ -3,7 +3,8 @@ import Navbar from '../Navbar/navbar';
 import './style.css';
 import Footer from '../Footer';
 import vimerco from '../../images/vimerco.png';
-
+import mkt from '../../images/icons/mkt2.png';
+import info from '../../images/icons/info-b.png';
 const state = {
     labels: ['January', 'February', 'March',
              'April', 'May'],
@@ -29,7 +30,7 @@ class Exchange extends React.Component {
         for(var i=0;i<8;i++)
         {
             varrow = ( <div className="table-body-row">
-            <div>18.95063083</div>
+            <div className="mktlogo"><img src={mkt} />18.95063083</div>
             <div>131.19311061</div>
             <div>0.00%</div>
         </div>);
@@ -38,8 +39,7 @@ class Exchange extends React.Component {
         
         return IOSTChange;
     }
-
-    OrderBook()
+     OrderBook()
     {
         var varrow="";
         var OrderBook = [];
@@ -98,13 +98,27 @@ class Exchange extends React.Component {
 
     render() {        
         return (
-            <div className="stakevote-pg">
+            <div className="stakevote-pg exchange-pg">
                 <Navbar/>   
                 <div className="Exchange_main_outer">
                     <div className="exchange_first_row">
                         <div className="col-width-25 exchangecol1">
                             <div className="black-bx">
-                                <h4>Order book <div>0.0000</div></h4>
+                                <h4>Order book
+                                    <div className="row_left-btns">
+                                        <div class="dropdown">
+                                            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                8
+                                            </button>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">4</a>
+                                                <a class="dropdown-item" href="#">6</a>
+                                                <a class="dropdown-item" href="#">10</a>
+                                            </div>
+                                        </div>
+                                        <img src={info}/>
+                                    </div>
+                                </h4>
                                 <div className="stake-table-outer mb-2">
                                     <div className="table-head">
                                         <div>Price (IOST)</div>
@@ -264,7 +278,21 @@ class Exchange extends React.Component {
                                 
                             </div>
                             <div className="black-bx">
-                                <h4>Recent Trades   <div>0.0000</div></h4>
+                                <h4>Recent Trades
+                                    <div className="row_left-btns">
+                                        <div class="dropdown">
+                                            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                                                8
+                                            </button>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">4</a>
+                                                <a class="dropdown-item" href="#">6</a>
+                                                <a class="dropdown-item" href="#">10</a>
+                                            </div>
+                                        </div>
+                                        <img src={info}/>
+                                    </div>
+                                </h4>
                                 <div className="stake-table-outer">
                                     <div className="table-head">
                                         <div>Price (IOST)</div>
