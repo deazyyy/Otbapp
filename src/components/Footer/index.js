@@ -1,9 +1,6 @@
 import React from 'react';
 import logo from '../../images/logo.png';
 import './style.css';
-import socialTele from '../../images/icons/telegram.png';
-import socialQues from '../../images/icons/help-web-button.png';
-import socialTwitter from '../../images/icons/twitter.png';
 import wallet from '../../images/icons/wallet.png';
 import { 
     Link, 
@@ -41,9 +38,9 @@ class Footer extends React.Component{
               
                 <div className="nav-social">
                     <a className="btn-main" href="#"><img src={wallet}></img>Login</a>
-                    <img src={socialTele}></img>
-                    <img src={socialTwitter}></img>
-                    <img src={socialQues}></img>
+                    <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-question-circle" aria-hidden="true"></i>
                 </div>
             </nav>
         );

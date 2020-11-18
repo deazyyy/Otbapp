@@ -1,9 +1,6 @@
 import React from 'react';
 import logo from '../../images/logo.png';
 import './navbar.css';
-import socialTele from '../../images/icons/telegram.png';
-import socialQues from '../../images/icons/help-web-button.png';
-import socialTwitter from '../../images/icons/twitter.png';
 import wallet from '../../images/icons/wallet.png';
 import { 
     Link, 
@@ -61,9 +58,9 @@ class Navbar extends React.Component{
                 <div className="mobile-hide">
                     <div className="nav-social">
                         <a className="btn-main" href="#"><img src={wallet}></img>Login</a>
-                        <img src={socialTele}></img>
-                        <img src={socialTwitter}></img>
-                        <img src={socialQues}></img>
+                        <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-question-circle" aria-hidden="true"></i>
                     </div>
                 </div>
                 <div className={(this.state.temptogl == 1 ? 'nav_mobile_show' : 'nav_mobile_showx')} >
@@ -94,9 +91,9 @@ class Navbar extends React.Component{
                         <div className="nav-social">
                             <a className="btn-main" href="#">Login</a>
                             <div>
-                                <img src={socialTele}></img>
-                                <img src={socialTwitter}></img>
-                                <img src={socialQues}></img>
+                                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                                <i class="fa fa-question-circle" aria-hidden="true"></i>
                             </div>
                         </div>
                     </div>

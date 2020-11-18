@@ -837,6 +837,13 @@
 	.nav_mobile_show{
 		display: block;
 	}
+	.table-row-more{
+		width: 80vw;
+		min-width: 80vw;
+		position: relative;
+		left: 50vw;
+		transform: translateX(-50%);
+	}
 
 
 	footer{
