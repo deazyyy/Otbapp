@@ -7,10 +7,13 @@ import {
   Link
 } from "react-router-dom";
 
-import Exchange from './components/Exchange';
-import Events from './components/Events';
-import Landing from './components/landing';
-import StakeExchange from './components/stakevote';
+import Exchange from './views/Exchange';
+import Events from './views/Events';
+import Landing from './views/landing';
+import StakeExchange from './views/stakevote';
+import Login from './views/Login';
+import Footer from './components/Footer';
+import vimerco from './images/vimerco.png';
 
 import './components/Modal/index.js';
 import Modal from './components/Modal';
@@ -18,6 +21,7 @@ import Modal from './components/Modal';
 function App() {
   return (
     <Router>
+    
       <Modal name="LotteryModal"/>
                 <Modal name="SwapModal"/>
                 <Modal name="PastWinners"/>
@@ -25,6 +29,13 @@ function App() {
         <Route path="/stakevote" component={StakeExchange} />
         <Route path="/exchange" component={Exchange} />
         <Route path="/event" component={Events} />  
+        <Route path="/login" component={Login} />  
+        <footer>
+                    <Footer/>
+                    <div className="comp-logo">
+                        <img src={vimerco} alt="icon"></img>
+                    </div>
+                </footer>
       </Router>
   );
 }

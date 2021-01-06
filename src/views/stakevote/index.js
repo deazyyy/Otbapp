@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from '../Navbar/navbar';
-import Footer from '../Footer';
+import Navbar from '../../components/Navbar/navbar';
+
 import './style.css';
 
 import adv1 from '../../images/icons/1.png';
@@ -233,12 +233,7 @@ class StakeExchange extends React.Component {
 
                 </div>
                
-                <footer>
-                    <Footer/>
-                    <div className="comp-logo">
-                        <img src={vimerco} alt="icon"></img>
-                    </div>
-                </footer>
+             
                 
          </div>
       );

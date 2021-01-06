@@ -1,8 +1,8 @@
 import React from 'react';
-import Navbar from '../Navbar/navbar';
+import Navbar from '../../components/Navbar/navbar';
 import './style.css';
-import Footer from '../Footer';
-import vimerco from '../../images/vimerco.png';
+
+
 import mkt from '../../images/icons/mkt2.png';
 import info from '../../images/icons/info-b.png';
 const state = {
@@ -99,7 +99,7 @@ class Exchange extends React.Component {
     render() {        
         return (
             <div className="stakevote-pg exchange-pg">
-                <Navbar/>   
+              <Navbar/>
                 <div className="Exchange_main_outer">
                     <div className="exchange_first_row">
                         <div className="col-width-25 exchangecol1">
@@ -373,12 +373,7 @@ class Exchange extends React.Component {
 
                 </div>
                
-                <footer>
-                    <Footer/>
-                    <div className="comp-logo">
-                        <img src={vimerco} alt="icon"></img>
-                    </div>
-                </footer>
+                
                 
          </div>
       );

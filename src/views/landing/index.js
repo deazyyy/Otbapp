@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../Navbar/navbar';
+import Navbar from '../../components/Navbar/navbar';
 import './style.css';
 
 import adv1 from '../../images/icons/1.png';
@@ -28,7 +28,7 @@ import wallet from '../../images/icons/wallet.png';
 import user from '../../images/icons/user.png';
 import trading from '../../images/icons/trading.png';
 
-import Footer from '../Footer';
+
 var counterstart =1, counterend =counterstart+6;
 class Landing extends React.Component {
     constructor(props) {
@@ -293,12 +293,7 @@ class Landing extends React.Component {
                     </div>
                 </section>
 
-                <footer>
-                    <Footer/>
-                    <div className="comp-logo">
-                        <img src={vimerco} alt="icon"></img>
-                    </div>
-                </footer>
+            
                 
          </div>
       );

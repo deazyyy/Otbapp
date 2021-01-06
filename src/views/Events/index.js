@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../Navbar/navbar';
+import Navbar from '../../components/Navbar/navbar';
 import './style.css';
 
 import adv1 from '../../images/icons/1.png';
@@ -149,12 +149,7 @@ class Events extends React.Component {
                         </div>
                     </div>
                 </div>
-                <footer>
-                   
-                    <div className="comp-logo">
-                        <img src={vimerco} alt="icon"></img>
-                    </div>
-                </footer>
+              
                 
          </div>
       );
